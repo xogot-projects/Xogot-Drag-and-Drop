@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="DragDropTutorial"
+run/main_scene="uid://dfykple1pkmoe"
+config/features=PackedStringArray("4.5", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=160
+window/size/viewport_height=90
+window/stretch/mode="canvas_items"
+window/stretch/scale_mode="integer"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="forward_plus"
+
+[xogot]
+
+project/editorState=[{
+"column": 36,
+"current": true,
+"line": 5,
+"path": "res://Objects/object_base.gd",
+"type": "file"
+}]
+project/breakpoints={
+"res://Objects/object_base.gd": PackedInt32Array()
+}
